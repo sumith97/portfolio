@@ -47,6 +47,8 @@ import vidtour from "./vidtour.png";
 import aifairness from "./aifairness.png";
 import passwordstrength from "./passwordstrength.png";
 import shifttoapp from "./ShifttoApp.png";
+import lexisnexis from "./company/lexisnexis.jpg";
+import opentext from "./company/opentext.png";
 
 export {
   biosample,
@@ -92,4 +94,6 @@ export {
   ic3,
   ufhealth,
   atlogo,
+  lexisnexis,
+  opentext,
 };

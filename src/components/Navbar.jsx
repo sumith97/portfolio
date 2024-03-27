@@ -46,7 +46,7 @@ const Navbar = () => {
 
   // Add an event handler to open the LinkedIn profile in a new window
   const handleLinkedInClick = () => {
-  const linkedInProfileUrl = 'https://www.linkedin.com/in/arunteja-unnagiri/';
+  const linkedInProfileUrl = 'https://www.linkedin.com/in/guthasumith/';
     window.open(linkedInProfileUrl, '_blank', 'noopener,noreferrer');
   };
 
@@ -70,8 +70,8 @@ const Navbar = () => {
         >
           <img src={atlogo} alt='atlogo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-            Arun Teja &nbsp;
-            <span className='sm:block hidden'> | Software Engineer</span>
+            Sumith Reddy Gutha &nbsp;
+            <span className='sm:block hidden'> | Software Developer</span>
           </p>
         </Link>
 

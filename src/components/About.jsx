@@ -51,9 +51,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a computer science engineer, deeply fascinated by the potential of Technology, especially in AI and ML. I love to create solutions that truly make a difference, with a knack for building things that matter. 
-        From creating data-driven solutions to developing full-stack applications, I've honed my skills in Java, Python, JavaScript, and embraced frameworks like Angular, React and Node.js. My journey through data analytics, machine learning, and software engineering 
-        has equipped me to tackle challenges head-on, always aiming for impactful, user-friendly outcomes. Let's connect and explore how we can turn innovative ideas into reality!
+       With a proven background at OpenText and an enriching internship at LexisNexis Risk Solutions, I specialize in Software Development, Testing and Automation. 
+       My expertise extends to creating and enhancing testing frameworks as well as optimizing CI/CD pipelines. 
+       I'm a big Cloud Technology Enthusiast. 
+       I'm committed to excellence in software quality, I continuously seek to expand my knowledge and skills in Cloud Technologies, QA methodologies and practices. 
+       I am keen to connect with professionals in the industry to explore opportunities, exchange insights, and discuss the latest devlopment in Tech Field.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
