@@ -50,6 +50,11 @@ const Navbar = () => {
     window.open(linkedInProfileUrl, '_blank', 'noopener,noreferrer');
   };
 
+  const handleTwitterClick = () => {
+    const twitterProfileUrl = 'https://x.com/sumithreddy99';
+      window.open(twitterProfileUrl, '_blank', 'noopener,noreferrer');
+    };
+
   return (
     <nav
       className={`${
@@ -105,7 +110,15 @@ const Navbar = () => {
           >
             LinkedIn
           </button>
-
+          
+          <button
+            className={`${
+              active === 'LinkedIn' ? "text-white" : "text-secondary"
+            } hover:text-white text-[18px] font-medium cursor-pointer`}
+            onClick={handleTwitterClick}
+          >
+            Twitter
+          </button>
 
         </ul>
 
