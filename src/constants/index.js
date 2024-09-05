@@ -39,6 +39,10 @@ import {
     shifttoapp,
     lexisnexis,
     opentext,
+    hdd,
+    per1,
+    per2,
+    per3,
   } from "../assets";
   
   export const navLinks = [
@@ -48,7 +52,11 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Experience",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -183,7 +191,7 @@ import {
       name: "Jyosthna Yellampalli",
       designation: "Manager",
       company: "OpenText",
-      image: "https://randomuser.me/api/portraits/women/50.jpg",
+      image: per1,
     },
     {
       testimonial:
@@ -191,7 +199,7 @@ import {
       name: "Navik Bhandari",
       designation: "Principal Quality Asurance Engineer",
       company: "OpenText",
-      image: "https://randomuser.me/api/portraits/men/40.jpg",
+      image: per2,
     },
     {
       testimonial:
@@ -199,7 +207,7 @@ import {
       name: "Monika",
       designation: "Senior Software Engineer",
       company: "OpenText",
-      image: "https://randomuser.me/api/portraits/women/13.jpg",
+      image: per3,
     },
   ];
   
@@ -322,14 +330,38 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "Flask",
+          name: "Flask Framework",
           color: "blue-text-gradient",
         },
       ],
       image: socceranalysis,
       source_code_link: "https://www.ijariit.com/manuscripts/v5i3/V5I3-1322.pdf",
     },
-    
+    {
+      name: "Hard Disk Drive Acoustic Injection Simulation in Air",
+      description:
+        "Through COMSOL simulations and comprehensive analysis, this project presents our findings, offering insights into the extent of damage that acoustic injection can inflict on HDDs under various conditions.",
+      tags: [
+        {
+          name: "Information Security",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "COMSOL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Storage Systems",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Risk Analysis",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: hdd,
+      source_code_link: "https://drive.google.com/file/d/1HYznlRbLZ6IzatN4yREbwwz0bgahLGXz/view?usp=sharing",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

@@ -55,7 +55,7 @@ const About = () => {
        My expertise extends to creating and enhancing testing frameworks as well as optimizing CI/CD pipelines. 
        I'm a big Cloud Technology and Data Science Enthusiast.
        I'm committed to excellence in software quality, I continuously seek to expand my knowledge and skills in Cloud Technologies, QA methodologies and practices. 
-       I am keen to connect with professionals in the industry to explore opportunities, exchange insights, and discuss the latest devlopment in Tech Field.
+       I am keen to connect with professionals in the industry to explore opportunities, exchange insights, and discuss the latest development in Tech Field.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

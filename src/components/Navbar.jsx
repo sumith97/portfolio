@@ -12,7 +12,7 @@ const Navbar = () => {
   const navRef = useRef(null);
 
   // Add a new state to store the PDF link
-  const [pdfLink] = useState("https://drive.google.com/file/d/1ZikI7Nh7-wi8Dlqe9fgzjRkwHLWg0JzW/view?usp=sharing");
+  const [pdfLink] = useState("https://drive.google.com/file/d/1JELUikCuN7Ffg2YY3_f_MOCN8ty55eBa/view?usp=sharing");
 
   useEffect(() => {
     const handleScroll = () => {

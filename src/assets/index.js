@@ -49,6 +49,11 @@ import passwordstrength from "./passwordstrength.png";
 import shifttoapp from "./ShifttoApp.png";
 import lexisnexis from "./company/lexisnexis.jpg";
 import opentext from "./company/opentext.png";
+import hdd from "./hdd.png";
+import per1 from "./50.jpg";
+import per2 from "./40.jpg";
+import per3 from "./13.jpg";
+
 
 export {
   biosample,
@@ -96,4 +101,8 @@ export {
   atlogo,
   lexisnexis,
   opentext,
+  hdd,
+  per1,
+  per2,
+  per3,
 };
