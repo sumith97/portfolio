@@ -12,7 +12,7 @@ const Navbar = () => {
   const navRef = useRef(null);
 
   // Add a new state to store the PDF link
-  const [pdfLink] = useState("https://drive.google.com/file/d/1JELUikCuN7Ffg2YY3_f_MOCN8ty55eBa/view?usp=sharing");
+  const [pdfLink] = useState("https://drive.google.com/file/d/1LUibK4ZAVbDo7P87NKbkJsspXKey8jrO/view?usp=sharing");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -66,7 +66,7 @@ const Navbar = () => {
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
-          to='/'
+          to='/portfolio'
           className='flex items-center gap-2'
           onClick={() => {
             setActive("");
@@ -89,36 +89,42 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.id)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              {/* <a href={nav.title.toLowerCase() === 'google' ? `${nav.id}` : `#${nav.id}`}>{nav.title}</a> */}
+              <a 
+                    href={['resume', 'linkedin', 'twitter'].includes(nav.title.toLowerCase()) ? `${nav.id}` : `#${nav.id}`}
+                    target={['resume', 'linkedin', 'twitter'].includes(nav.title.toLowerCase()) ? "_blank" : "_self"}
+                    rel={['resume', 'linkedin', 'twitter'].includes(nav.title.toLowerCase()) ? "noopener,noreferrer" : undefined}
+                  >{nav.title}</a>
             </li>
           ))}
           {/* Add a new button element next to the contact link for Resume, LinkedIn*/}
-          <button
+
+          {/* <button
             className={`${
               active === 'Resume' ? "text-white" : "text-secondary"
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={handlePdfClick}
           >
             Resume
-          </button>
+          </button> */}
 
-          <button
+          {/* <button
             className={`${
               active === 'LinkedIn' ? "text-white" : "text-secondary"
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={handleLinkedInClick}
           >
             LinkedIn
-          </button>
+          </button> */}
           
-          <button
+          {/* <button
             className={`${
               active === 'LinkedIn' ? "text-white" : "text-secondary"
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={handleTwitterClick}
           >
             Twitter
-          </button>
+          </button> */}
 
         </ul>
 
@@ -147,7 +153,12 @@ const Navbar = () => {
                     setActive(nav.id);
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  {/* <a href={nav.title.toLowerCase() === 'google' ? `${nav.id}` : `#${nav.id}`}>{nav.title}</a> */}
+                  <a 
+                    href={['resume', 'linkedin', 'twitter'].includes(nav.title.toLowerCase()) ? `${nav.id}` : `#${nav.id}`}
+                    target={['resume', 'linkedin', 'twitter'].includes(nav.title.toLowerCase()) ? "_blank" : "_self"}
+                    rel={['resume', 'linkedin', 'twitter'].includes(nav.title.toLowerCase()) ? "noopener,noreferrer" : undefined}
+                  >{nav.title}</a>
                 </li>
               ))}
             </ul>

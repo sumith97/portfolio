@@ -62,6 +62,24 @@ import {
       id: "contact",
       title: "Contact",
     },
+
+    // {
+      //   id: "https://www.google.com",
+      //   title: "Google",
+    // },
+    {
+      id: "https://drive.google.com/file/d/1ijwdRdVDhyvtZUR1oIf-YdGDYQwUk8jx/view?usp=sharing",
+      title: "Resume",
+    },
+    {
+      id: "https://www.linkedin.com/in/guthasumith/",
+      title: "LinkedIn",
+    },
+    {
+      id: "https://x.com/sumithreddy99",
+      title: "Twitter",
+    },
+
   ];
   
   const services = [
@@ -137,7 +155,7 @@ import {
       icon: vscode,
     },
   ];
-  
+  // code change
   const experiences = [
     {
       title: "Software Development Intern",
@@ -146,28 +164,32 @@ import {
       iconBg: "#383E56",
       date: "May 2023 - July 2023",
       points: [
-        "Responsible for investigating the issues in test automation and fixed 35% of failing testcases in Insurance Market Insights Application.",
-        "Worked on writing new API and UI automation test cases for multiple applications using Karate Framework.",
-        "Worked on providing appropriate test data to ensure application works as per requirements.",
-        "Documented all my investigations and reported the bugs encountered in application to the development team by raising tickets in JIRA.",
-        "Created web application using flask framework for team manager to generate custom visualization based on data from JIRA.",
+        "Investigated and resolved 35% of failing test cases in the Insurance Market Insights Application's Test Automation Suite",
+        "Worked on writing new API and UI automation test cases for the applications using the Karate Framework and Selenium",
+        "Provided and managed test data to ensure comprehensive application functionality as per requirements",
+        "Documented investigation findings and logged defects in JIRA thereby contributing to application quality",
+        "Developed a Flask-based web application with Plotly for custom JIRA data visualizations enhancing team decision-making",
       ],
     },
     {
-      title: "Quality Assurance Engineer",
+      title: "Associate Quality Assurance Engineer",
       company_name: "OpenText",
       icon: opentext,
       iconBg: "#E6DEDD",
       date: "Feb 2020 - July 2022",
       points: [
-        "Contributed to the planning and documentation of test cases, ensuring thorough verification through agile testing methodologies",
-        "Worked extensively on testing API’s and automating about 65% of the total API test cases using Rest-assured framework.",
-        "Maintained and automated about 40% of total UI testcases using selenium with cucumber BDD framework.",
-        "Automated the performance testing process for the Trading Grid Administration Application, reducing resource needs from 3 team members to 1.",
-        "Enhanced application security by performing security testing with Burp Suite, ensuring robust protection against potential vulnerabilities.",
-        "Optimized and managed CI/CD pipelines for the regression test suite, guaranteeing consistent and efficient execution of regression testing.",
-        "Ensured the functionalities of the product is properly documented in confluence and took part in giving demos to end users and taking their feedback for improvement.",
-        "Types of Testing done: Fuzzy Testing, Functional Testing, Regression Testing, End-to-End Testing and Manual Exploratory Testing.",
+        "Worked closely with developers, designers, and product managers to refine testing requirements participated in sprint planning and reviewed product backlogs to ensure testing was adequately represented in development cycles",
+        "Contributed to the planning and documentation of test cases ensuring thorough verification through Agile testing methodologies",
+        "Conducted thorough manual testing of new features immediately after development within the sprint cycle ensuring functionality met user story requirements before moving to automated testing",
+        "Identified reported and tracked application issues in JIRA ensuring efficient resolution and communication throughout the issue lifecycle",
+        "Extensively tested APIs automating 65% of test cases using the REST-assured framework",
+        "Automated 40% of UI test cases with Selenium using Cucumber BDD framework with TestNG as the test runner for executing scenarios",
+        "Automated performance testing for the Trading Grid Administration Application by scripting job file uploads to simulate various load scenarios",
+        "Optimized CI/CD pipelines for regression testing and have reduced test execution time by 15%",
+        "Performed system integration testing in pre-production environments ensuring all integrated components worked together seamlessly before advancing to production",
+        "Executed rigorous database testing during the migration from Oracle 11g to Oracle 12c focusing on data integrity CRUD operations and schema validation with SQL queries to maintain data consistency and application functionality",
+        "Engaged in disaster recovery testing for Trading Grid Administration application verifying functionality post-recovery and documenting outage duration to assess recovery efficiency",
+        "Documented product functionalities in Confluence and engaged in end-user demos incorporating feedback for product improvement",
       ],
     },
     {
@@ -177,9 +199,12 @@ import {
       iconBg: "#E6DEDD",
       date: "May 2019 - Jan 2020",
       points: [
-        "Worked on OpenText Magellan Text Mining Application in developer team, completed the task to improve the performance of data extraction.",
-        "Worked on OpenText eDOCS android application in Quality Assurance team, automated about 20% of total UI Test Cases using Appium",
-        "Documented the functionality in confluence and supported technical help for the end user.",
+        "As part of the Quality Assurance team for OpenText eDOCS Android application automated 20% of UI test cases using Appium and SpecFlow",
+        "Tested backend API calls to verify data integrity authentication processes and server response times using Postman integrated within the CI/CD pipeline",
+        "Validated the app's ability to handle unexpected inputs interruptions and errors gracefully ensuring that crash rates were minimized",
+        "Executed compatibility tests on a matrix of devices and OS versions to ensure uniform functionality and appearance identifying key issues related to screen resolutions and Android fragmentation",
+        "After each update or feature addition performed regression testing to ensure that new changes did not adversely affect existing functionalities",
+        "Documented app functionality in confluence and helped troubleshooting issues for end user",
       ],
     },
   ];
