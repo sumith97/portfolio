@@ -67,10 +67,10 @@ import {
       //   id: "https://www.google.com",
       //   title: "Google",
     // },
-    {
-      id: "https://drive.google.com/file/d/1ijwdRdVDhyvtZUR1oIf-YdGDYQwUk8jx/view?usp=sharing",
-      title: "Resume",
-    },
+    // {
+    //   id: "https://drive.google.com/file/d/1ijwdRdVDhyvtZUR1oIf-YdGDYQwUk8jx/view?usp=sharing",
+    //   title: "Resume",
+    // },
     {
       id: "https://www.linkedin.com/in/guthasumith/",
       title: "LinkedIn",
@@ -92,11 +92,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Cloud Technologies",
+      title: "Data Analytics",
       icon: web,
     },
     {
-      title: "Data Science",
+      title: "Data Engineering",
       icon: creator,
     },
   ];
@@ -168,7 +168,7 @@ import {
         "Worked on writing new API and UI automation test cases for the applications using the Karate Framework and Selenium",
         "Provided and managed test data to ensure comprehensive application functionality as per requirements",
         "Documented investigation findings and logged defects in JIRA thereby contributing to application quality",
-        "Developed a Flask-based web application with Plotly for custom JIRA data visualizations enhancing team decision-making",
+        "Developed web application for custom JIRA data visualizations enhancing team decision-making",
       ],
     },
     {

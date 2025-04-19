@@ -51,10 +51,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       With a proven background at OpenText and an enriching internship at LexisNexis Risk Solutions, I specialize in Software Development, Testing and Automation. 
-       My expertise extends to creating and enhancing testing frameworks as well as optimizing CI/CD pipelines. 
-       I'm a big Cloud Technology and Data Science Enthusiast.
-       I'm committed to excellence in software quality, I continuously seek to expand my knowledge and skills in Cloud Technologies, QA methodologies and practices. 
+       With a proven background at OpenText and an enriching internship at LexisNexis Risk Solutions, I specialize in software development and Test Automation. 
+       My expertise extends to creating and enhancing testing frameworks as well as optimizing CI/CD pipelines and performing data and software quality checks. 
+       I'm committed to excellence in software quality, I continuously seek to expand my knowledge and skills in Software Development, Data Engineering and QA practices.
        I am keen to connect with professionals in the industry to explore opportunities, exchange insights, and discuss the latest development in Tech Field.
       </motion.p>
 
